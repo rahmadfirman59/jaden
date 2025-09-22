@@ -50,7 +50,9 @@ body:after {
 body {
     background-color: #000;
     color: #fff;
-    font-family: Pretendard, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    overflow-x: hidden;
+
 }
 
 .app {
@@ -86,7 +88,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
-    margin-bottom: 6rem
+
 }
 
 .hero-content {
@@ -177,7 +179,7 @@ body {
 }
 
 .decorative-line1 {
-    top: 50%;
+    top: 75%;
     left: 53%;
     transform: translate(-50%, -50%)
 }
@@ -208,10 +210,12 @@ body {
 
 .features {
     text-align: center;
-    padding: 4rem 0
+    padding: 4rem 0;
+    margin-bottom: 5rem;
 }
 
 .features-header {
+    margin-top: 5rem;
     margin-bottom: 4rem;
     text-align: left
 }
@@ -1334,6 +1338,6 @@ body {
     }
 
     .hero {
-        margin-bottom: 3rem
+        margin-bottom: 3rem;
     }
 }
