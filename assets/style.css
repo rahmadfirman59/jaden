@@ -1331,13 +1331,40 @@ body {
     }
 }
 
-@media (max-height: 600px) and (orientation: landscape) {
+@media (min-width: 600px) and (orientation: landscape) {
     .step-container {
         min-height: auto;
         padding: 2rem
     }
 
     .hero {
-        margin-bottom: 3rem;
+        margin-bottom: 6rem;
     }
+    .decorative-line1{
+        position: absolute;
+        width: 1024px;
+
+        top: 300px;
+        right: -100px;
+        z-index: 1;
+    }
+
+    .phone-mockup{
+        margin: 0 144px;
+    }
+   .hero-content{
+        margin: 0 144px;
+   }
+
+   .features{
+       margin: 0 144px;
+   }
+
+   .call-card{
+       margin: 0 144px;
+   }
+
+   .dating-card{
+       margin: 0 144px;
+   }
 }
